@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form id="form">
+      <h1 id="title">Form</h1>
+
+      <input id="username" type="text" placeholder="UserName" /><br />
+      <p id="usernameFocus"></p>
+      <p id="usernameError"></p>
+      <input id="email" type="text" value="E-mail" /><br />
+      <input id="password" type="password" value="Password" /><br />
+      <select id="select">
+        <option>Country</option>
+        <option>Shqiperi</option>
+        <option>Turqi</option>
+        <option>Kosove</option></select
+      ><br />
+      <label style="padding-left: 40px">Level of development</label><br />
+
+      <div class="radio-style">
+        <div class="radio">
+          <input type="radio" id="basic" name="basic" />
+          <label id="radio-label" for="basic">Basic</label>
+        </div>
+        <div class="radio">
+          <input type="radio" id="basic" name="basic" />
+          <label id="radio-label" for="basic">Medium</label>
+        </div>
+        <div class="radio">
+          <input type="radio" id="basic" name="basic" />
+          <label id="radio-label" for="basic">Advanced</label>
+        </div>
+      </div>
+
+      <label style="padding-left: 40px">Programming skills</label><br />
+
+      <div class="checkbox-style">
+        <div class="checkbox">
+          <input type="checkbox" id="java" name="java" />
+          <label id="checkbox-label" for="java">Java</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" id="java" name="java" />
+          <label id="checkbox-label" for="basic">Python</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" id="java" name="java" />
+          <label id="checkbox-label" for="basic">JavaScript</label>
+        </div>
+      </div>
+      <button id="submit" type="submit">SEND</button>
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js"
+      integrity="sha256-+C0A5Ilqmu4QcSPxrlGpaZxJ04VjsRjKu+G82kl5UJk="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

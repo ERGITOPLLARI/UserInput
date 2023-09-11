@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #d9d9d9;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #5d5fef;
+}
+#form {
+  background-color: white;
+  margin: auto;
+  width: fit-content;
+  height: 600px;
+  margin-top: 80px;
+  border-radius: 8px;
+  display: block;
+}
+
+#title {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 60px;
+}
+input {
+  margin: 0px 40px 10px 40px;
+  color: #5d5fef;
+}
+#username {
+  background-image: url(./inputlogos/User-logo.png);
+  background-repeat: no-repeat;
+  background-position: 15px;
+  padding-left: 50px;
+  width: 300px;
+  height: 30px;
+  border: 2px solid #d9d9d9;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+#username:focus {
+  outline-color: #5d5fef;
+}
+#email {
+  background-image: url(./inputlogos/Mail-logo.png);
+  background-repeat: no-repeat;
+  background-position: 15px;
+  padding-left: 50px;
+  width: 300px;
+  height: 30px;
+  border: 2px solid #d9d9d9;
+  border-radius: 8px;
+}
+#password {
+  background-image: url(./inputlogos/Vector.png);
+  background-repeat: no-repeat;
+  background-position: 15px;
+  padding-left: 50px;
+
+  width: 300px;
+  height: 30px;
+  border: 2px solid #d9d9d9;
+  border-radius: 8px;
+}
+#select {
+  background-image: url(./inputlogos/Vecto.png);
+  background-repeat: no-repeat;
+  background-position: 15px;
+  padding-left: 50px;
+  width: 355px;
+  height: 35px;
+  border: 2px solid #d9d9d9;
+  border-radius: 8px;
+  margin-left: 40px;
+  color: #5d5fef;
+  margin-bottom: 20px;
+}
+
+.radio-style,
+.checkbox-style {
+  margin: 10px 40px 10px 40px;
+  width: 355px;
+  height: 30px;
+  display: flex;
+  gap: 10px;
+}
+.radio,
+.checkbox {
+  width: 150px;
+  border: 2px solid #d9d9d9;
+  border-radius: 8px;
+  display: flex;
+  position: relative;
+}
+#basic,
+#java {
+  margin: auto;
+  text-align: center;
+}
+#radio-label,
+#checkbox-label {
+  margin: auto;
+  margin-left: -10px;
+}
+
+#submit {
+  display: flex;
+  width: 355px;
+  height: 30px;
+  font-size: 26px;
+  color: white;
+  background-color: #5d5fef;
+  border: none;
+  border-radius: 4px;
+  margin: auto;
+  direction: ltr;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-left: 150px;
+  padding-top: 4px;
+}
+
+#usernameFocus {
+  position: relative;
+  bottom: 50px;
+  left: 87px;
+  background-color: white;
+  width: 65px;
+  padding-left: 5px;
+  font-size: small;
+  height: fit-content;
+}
+#usernameError {
+  position: relative;
+  bottom: 10px;
+  left: 60px;
+}
